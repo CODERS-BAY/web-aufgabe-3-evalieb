@@ -1,0 +1,51 @@
+body{
+    font-family: fantasy;
+    background-color: #B1AFCD;
+   
+    padding: 30px;
+}
+
+
+img, video, audio, iframe {
+    display: block;
+    max-width: 500px;
+    
+}
+
+figure{
+    margin:0;
+}
+
+figcaption{
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #91E0F4;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #0C90AD
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #F3E4E7;
+  }
+
+footer {
+    margin-top: 20px;
+}
